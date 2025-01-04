@@ -1,0 +1,57 @@
+/* Dashboard Page Styles - Shared between Admin and User Dashboards */
+
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4faff; /* Light blue background */
+  }
+  
+  .dashboard-wrapper {
+    background-color: #ffffff;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .dashboard-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: #003049; /* Dark blue */
+    margin-bottom: 1rem;
+  }
+  
+  .dashboard-subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #555555; /* Gray for the subtitle */
+    margin-bottom: 2rem;
+  }
+  
+  .dashboard-actions {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+  
+  .dashboard-button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #003049; /* Dark blue */
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .dashboard-button:hover {
+    background-color: #0077b6; /* Soft blue */
+  }
+  

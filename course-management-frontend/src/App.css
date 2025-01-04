@@ -1,0 +1,62 @@
+/* App-wide global styles */
+
+/* Header styles */
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1d3557; /* Dark blue */
+  color: #f1faee; /* Light white */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 0;
+  color: #a8dadc; /* Light green */
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #f1faee;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #a8dadc; /* Highlight color */
+}
+
+.active {
+  color: #e63946; /* Active link color */
+  font-weight: bold;
+}
+
+/* Main content styles */
+.app-main {
+  padding: 2rem;
+  background-color: #f1faee;
+  min-height: calc(100vh - 160px); /* Adjusting height for header/footer */
+  font-family: 'Poppins', sans-serif;
+  color: #1d3557;
+}
+
+/* Footer styles */
+.app-footer {
+  text-align: center;
+  padding: 1rem 2rem;
+  background-color: #1d3557;
+  color: #f1faee;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "coursenix",
+  "version": "1.0.0",
+  "description": "A robust Course Management API built with Node.js and MongoDB. It supports user and admin authentication, course creation and management, and purchase tracking. The project is designed with a modular code structure, featuring well-organized routes and middleware for efficient API handling.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BROCODES2024/Coursenix.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/BROCODES2024/Coursenix/issues"
+  },
+  "homepage": "https://github.com/BROCODES2024/Coursenix#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "brcypt": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.3",
+    "zod": "^3.24.1"
+  }
+}

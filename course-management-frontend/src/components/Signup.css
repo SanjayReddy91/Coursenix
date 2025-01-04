@@ -1,0 +1,78 @@
+/* Signup Page Styles */
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e5f5f8; /* Soft blue-green background */
+  }
+  
+  .signup-form-wrapper {
+    background-color: #ffffff;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .signup-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    color: #003049; /* Dark blue */
+    margin-bottom: 0.5rem;
+  }
+  
+  .signup-subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #0077b6; /* Soft blue */
+    margin-bottom: 1.5rem;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .signup-input {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .signup-input:focus {
+    border-color: #0077b6; /* Soft blue */
+  }
+  
+  .signup-button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #003049; /* Dark blue */
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .signup-button:hover {
+    background-color: #0077b6; /* Soft blue */
+  }
+  
+  .signup-message {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    color: #e63946; /* Red for error or messages */
+    margin-top: 1rem;
+  }
+  
